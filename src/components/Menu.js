@@ -30,7 +30,7 @@ const onButtonClick = () => {
       </Link>
 
       <ul class="nav nav-pills">
-        <li className="nav-item"><Link to="/"  className={`nav-link${location.pathname === '/' || location.pathname === '/personal-portfolio'? " active" : ""}`} aria-current="page">About me</Link></li>
+        <li className="nav-item"><Link to="/"  className={`nav-link${location.pathname === '/' || location.pathname.includes('/personal-portfolio') ? " active" : ""}`} aria-current="page">About me</Link></li>
         <li className="nav-item"><Link to="/projects" className={`nav-link${location.pathname.includes('/projects') ? " active" : " "}`} >Projects</Link></li>
         <li class="nav-item"><Link to="/contact" className={`nav-link${location.pathname === '/contact' ? " active" : " "}`}>Contact</Link></li>
         <li class="nav-item"><Link className={`nav-link`} onClick={onButtonClick}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">

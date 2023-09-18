@@ -17,7 +17,7 @@
       "Github"
     ],
     "links": [
-      { "githubPages": "Somethign" },
+      { "githubPages": "https://emanuel2258.github.io/personal-portfolio/" },
       { "githubRepo": "https://github.com/emanuel2258/personal-portfolio" }
     ]
   },
@@ -30,7 +30,7 @@
     "developmentProcess": "Diving into the API's documentation, I began a meticulous exploration of its endpoints using Postman. My primary goal was to ascertain the accuracy of my calls, understanding the requisite parameters, and deciphering the corresponding responses. This initial groundwork not only provided me with crucial insights but also boosted my confidence in executing these API calls effectively. Visualizing the entire project's flow became the next logical step. Armed with a clear understanding of the data's journey from extraction to upload, I crafted a comprehensive diagram outlining each stage. This visualization became my guiding blueprint, ensuring a systematic and organized development process. As the project evolved, my focus shifted towards embracing object-oriented programming principles. I delineated the key classes required for the project's success. A master class encapsulated the overarching process, while an expenses class skillfully filtered, computed, and formatted data. The final piece of the puzzle was the Splitwise class, acting as the bridge to facilitate seamless interactions with the Splitwise API. Armed with a well-structured plan, I proceeded to bring my vision to life. The Python script I developed not only uploaded transactions to Splitwise but also generated a CSV for meticulous review. This additional layer of transparency enabled me to confidently monitor and validate each interaction with Splitwise.",
     "myRole": "This project, beyond its functional utility, was an immersive learning experience. Through hands-on Python development, I deepened my familiarity with the language, mastering its nuances while also honing my skills in handling CSV files and gracefully managing errors. The process of integrating third-party APIs, like Splitwise's, into my project not only expanded my technical prowess but also underscored the importance of meticulous documentation and strategic testing.\n \nIn retrospect, this project perfectly exemplifies how combining practicality with passion can lead to powerful and enriching learning experiences. Not only have I succeeded in creating a time-saving solution for managing expenses, but I've also fortified my expertise in Python, API integration, and project design. This endeavor serves as a testament to the endless possibilities that personal projects can offer in terms of skill enhancement and practical application.",
     "technologies": ["Python", "Splitwise API", "CSV", "Javascript", "Github"],
-    "links": [{ "githubRepo": "" }]
+    "links": [{ "githubRepo": "https://github.com/emanuel2258/SplitWiseProject" }]
   },
   {
     "id": "availabilityReport",
@@ -47,7 +47,7 @@
       "Github",
       "IBM Cloud Synthetics"
     ],
-    "links": [{ "githubPages": "" }, { "githubRepo": "" }]
+    "links": []
   },
   {
     "id": "IRB",
@@ -66,7 +66,7 @@
       "Laravel",
       "MariaDB"
     ],
-    "links": [{ "githubPages": "" }, { "githubRepo": "" }]
+    "links": []
   },
   {
     "id": "JIFT",
