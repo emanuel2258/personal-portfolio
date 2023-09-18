@@ -1,0 +1,21 @@
+
+.project .card-title{
+    color: var(--bs-blue);
+    text-align: center;
+}
+.card-body{
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    overflow-y: scroll;
+}
+.card:hover{
+    border-color: var(--bs-gray-600);
+    background-color: var(--bs-gray-300);
+}
+.project a:hover {
+    color: inherit;
+    }
+.project .badge {
+    margin-left: 3px;
+    margin-right: 3px;
+}

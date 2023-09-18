@@ -1,0 +1,13 @@
+.projectDetails .sectionHeader{
+    color: var(--bs-blue);
+}
+.projectDetails p, .projectDetails ul, .projectDetails a{
+    text-align: justify;
+  /* Added to make \n work  in the js code */
+  white-space: pre-line;  
+  vertical-align: bottom;
+}
+.projectDetails .subSectionHeader{
+    text-align: left;
+    color: var(--bs-blue);
+}
