@@ -4,13 +4,13 @@ import './index.css';
 import AboutMe from './routes/AboutMe';
 import reportWebVitals from './reportWebVitals';
 import RootLayout from './routes/RootLayout';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import ProjectList from './routes/ProjectsList';
 import ErrorPage from "./routes/ErrorPage";
 import ProjectDetails from './routes/ProjectDetails';
 import Contact from './routes/Contact';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {path: '/', element: <RootLayout />, errorElement: <ErrorPage />, 
   children:[
     {path:'/', element:<AboutMe/>},
