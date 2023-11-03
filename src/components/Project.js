@@ -11,8 +11,7 @@ function Project(project) {
     <div className="col project">
       <Link to={project.path}>
         <div className="card h-100">
-          <img
-            src={process.env.PUBLIC_URL + project.imageSource}
+          <img src={process.env.PUBLIC_URL + project.imageSource}
             class="card-img-top"
             alt={project.title}
           />

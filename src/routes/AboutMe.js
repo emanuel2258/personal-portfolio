@@ -58,11 +58,10 @@ function AboutMe() {
           </div>
         </div>
         <div class="row align-items-end" style={{ marginBottom: "40px" }}>
-          <div class="col-4">
-            <h1>Tech Stack | </h1>
-          </div>
-          <div class="col-8">
-            <div class="row">
+       
+              <div class="col">
+              <h1>Tech Stack</h1>
+              </div>
               <div class="col">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +243,9 @@ function AboutMe() {
                 </svg>
                 <h5>Python</h5>
               </div>
-            </div>
+            
+          <div class="col-12">
+            
           </div>
         </div>
       </div>

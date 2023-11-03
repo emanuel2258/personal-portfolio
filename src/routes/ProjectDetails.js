@@ -15,11 +15,6 @@ function ProjectDetails() {
       </>
     );
   });
-  // let linkRes = [];
-  // Object.keys(project.links).forEach(function(key) {
-  //   linkRes.push(project.links[key]);
-  //   console.log(project.links[key])
-  // });
 
   return (
     <main className="body projectDetails">
@@ -39,6 +34,7 @@ function ProjectDetails() {
         className="card-img-top"
         alt={project.imageCaption}
       />
+
       <figcaption class="figure-caption">
       {project.imageCaption}
       </figcaption>
